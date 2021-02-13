@@ -1,1 +1,50 @@
-#hello 
+//If statement//
+let FavoriteColor= "blue";
+if (FavoriteColor === "blue")
+	alert("You want to find inner peace and absolute truth, and you always make an effort to think of others and their needs.");
+	}
+
+//if...else statement//
+if(color === "yellow"){
+	alert("yellow");
+}else{
+	alert("You enjoy learning and sharing knowledge with others, and you feel a need to always express your individuality.");
+}
+if(color === "PINK"){
+	alert("pink")
+}else{
+	alert(" All you want in life is unconditional love and to be accepted for who you are by your peers.");
+}
+
+//Switch statement//
+switch(FavoriteColor) 
+	case "purple":
+ 		alert("You are a perfectionist who requires emotional security in life, and you are a good humanitarian who helps others in need.");
+ 		break;
+	case "green":
+ 		alert("You are loyal and very frank with others, and you consider your reputation a very important part of your life.");
+ 		break; 
+ 	case "orange":
+		alert("You love to be with people and socialize, as you want to be accepted and respected as a part of a group.");
+		break;
+	case "red"
+		alert("You have drive and determination, and you prefer action and risk-taking behaviors. Your biggest need is for physical fulfillment and fitness.");
+		break;
+
+//Ternary operator//
+const color = "black"
+const favorite = color === "black"? "yes, black": "You strive for power and control in life, but are often artistic and intuitive and do not share things well with others.!";
+
+const color = "brown"
+const favorite = color === "brown"? "yes, brown": "You are a great friend, and you value a stable and simple life over material things.";
+
+const color = "grey"
+const favorite = color === "grey"? "yes, grey": "You are cool and composed and a very reliable person who tends to conform to keep the peace.";
+
+const color = "white"
+const favorite = color === "white"? "yes, white": "You are organized and very independent, and you rely on logic to solve every problem.";
+
+
+}
+default: 
+	alert("")
